@@ -28,7 +28,7 @@ namespace SistemaBancario
 
         public void ExibirSaldo()
         {
-            Console.WriteLine($"Seu saldo é: {_saldo}");
+            Console.WriteLine($"Seu saldo: {_saldo}");
         }
 
         public void Sacar(double valor)
